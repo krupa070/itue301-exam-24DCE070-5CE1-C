@@ -1,0 +1,14 @@
+{
+  "name": "itue301-exam-project",
+  "version": "1.0.0",
+  "description": "ITUE301 Exam Project - Full Stack Restaurant Application",
+  "scripts": {
+    "test:backend": "npm --prefix backend test",
+    "test:frontend": "npm --prefix frontend test",
+    "test": "npm run test:backend && npm run test:frontend",
+    "seed": "npm --prefix backend run seed",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build"
+  }
+}
